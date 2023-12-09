@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Ruslan+Display&display=swap');
+
+body,h1,ul,li{
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background-color: mediumpurple;
+    background-image: url("img/fondo.png");
+    height: 450px;
+}
+
+p{
+font-family: 'merriweather',cursive;
+}
+
+h1 {
+    display: none;
+    
+}
+
+div {
+    width: 800px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.logo {
+
+    height: 800;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.navegador {
+    border-top: 4px solid rebeccapurple;
+border-bottom: 4px solid rebeccapurple;
+
+}
+
+h2,h3{
+    font-family:'Ruslan Display',serif;
+    border-bottom: 4px solid rebeccapurple;
+
+}
+
+nav li {
+display: inline-block;
+}
+
+nav a{
+text-decoration: none;
+color: chartreuse;
+padding: 17px;
+display:inline-block;
+background-color: blueviolet;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: blueviolet;
+    background-color: chartreuse;
+    }
+
+article {
+ list-style: none inside;
+ background-color:lavender;
+ padding: 5px;
+ margin: 5px;
+ border-radius: 1%;
+}
+
+.lista-superior{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.lista-superior li{
+    max-width: 100%;
+    margin: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+
+
+.contenedordeljuego {
+    background-color:lavender;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 1%;
+    }
+
+    
+footer{
+color:coral;
+background-color: darkmagenta;
+padding: 5px;
+text-align: center;
+border-radius: 2%;
+}
+
+html{
+scroll-behavior: smooth;
+
+}
+
+@media (max-width: 600px){
+nav{
+text-align: center;   
+}
+nav a{
+ padding: 2px;
+}
+
+
+}
