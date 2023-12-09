@@ -65,7 +65,7 @@ function preload() {
 function setup() {
   // Crear un lienzo (canvas) de 600x600 píxeles
   let canvas = createCanvas(600, 600);
-  canvas.parent('juego-container'); 
+  //canvas.parent('juego-container'); 
   // Generar obstáculos "Demobalas"
   generarDemobalas();
   
